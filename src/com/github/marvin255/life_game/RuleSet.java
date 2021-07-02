@@ -42,14 +42,14 @@ class RuleSet {
         boolean isAlive = world.getCellStatus(coordinate);
 
         WorldCoordinate[] neighbours = {
-                new WorldCoordinate(coordinate.getX() - 1, coordinate.getY() - 1),
-                new WorldCoordinate(coordinate.getX() - 1, coordinate.getY()),
-                new WorldCoordinate(coordinate.getX() - 1, coordinate.getY() + 1),
-                new WorldCoordinate(coordinate.getX(), coordinate.getY() - 1),
-                new WorldCoordinate(coordinate.getX(), coordinate.getY() + 1),
-                new WorldCoordinate(coordinate.getX() + 1, coordinate.getY() - 1),
-                new WorldCoordinate(coordinate.getX() + 1, coordinate.getY()),
-                new WorldCoordinate(coordinate.getX() + 1, coordinate.getY() + 1),
+            new WorldCoordinate(coordinate.getX() - 1, coordinate.getY() - 1),
+            new WorldCoordinate(coordinate.getX() - 1, coordinate.getY()),
+            new WorldCoordinate(coordinate.getX() - 1, coordinate.getY() + 1),
+            new WorldCoordinate(coordinate.getX(), coordinate.getY() - 1),
+            new WorldCoordinate(coordinate.getX(), coordinate.getY() + 1),
+            new WorldCoordinate(coordinate.getX() + 1, coordinate.getY() - 1),
+            new WorldCoordinate(coordinate.getX() + 1, coordinate.getY()),
+            new WorldCoordinate(coordinate.getX() + 1, coordinate.getY() + 1),
         };
 
         int liveNeighbours = 0;
