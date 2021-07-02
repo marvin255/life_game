@@ -2,7 +2,7 @@ package com.github.marvin255.life_game;
 
 import java.util.Arrays;
 
-public class World {
+class World {
     private final int width;
     private final int height;
     private final boolean[] cells;

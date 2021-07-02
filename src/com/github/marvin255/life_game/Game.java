@@ -2,7 +2,7 @@ package com.github.marvin255.life_game;
 
 import java.util.List;
 
-public class Game {
+class Game {
     private final World world;
     private final RuleSet ruleSet;
     private final WorldPrinter worldPrinter;

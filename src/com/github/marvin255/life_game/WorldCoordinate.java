@@ -1,6 +1,6 @@
 package com.github.marvin255.life_game;
 
-public class WorldCoordinate {
+class WorldCoordinate {
     private final int x;
     private final int y;
 

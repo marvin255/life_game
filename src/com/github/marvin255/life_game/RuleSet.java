@@ -2,7 +2,7 @@ package com.github.marvin255.life_game;
 
 import java.util.ArrayList;
 
-public class RuleSet {
+class RuleSet {
     public boolean updateWorld(World world) {
         boolean hasLiveCells = false;
         ArrayList<WorldCoordinate> setTrue = new ArrayList<>();

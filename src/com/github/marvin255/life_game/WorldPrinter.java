@@ -1,6 +1,6 @@
 package com.github.marvin255.life_game;
 
-public class WorldPrinter {
+class WorldPrinter {
     public void print(World world) {
         System.out.print("\033[H\033[2J");
         System.out.flush();
