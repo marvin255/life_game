@@ -3,7 +3,7 @@ package com.github.marvin255.life_game;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         World world = new World(20, 20);
         WorldPrinter printer = new WorldPrinter();
         RuleSet ruleSet = new RuleSet();
